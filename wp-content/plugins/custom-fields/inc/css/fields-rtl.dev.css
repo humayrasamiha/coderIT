@@ -1,0 +1,10 @@
+ul#field-list li.field-list-item div.field-description {
+margin: 0 200px 0 0;
+padding: 0 4em 0 0;
+}
+.field-control-save,
+.field-control-remove {
+margin-right: 0;
+margin-left: 8px;
+float: right;
+}

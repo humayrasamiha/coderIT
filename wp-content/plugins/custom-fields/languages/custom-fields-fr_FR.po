@@ -1,0 +1,523 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: custom-fields\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-04-07 17:16+0100\n"
+"PO-Revision-Date: 2011-04-07 17:31+0100\n"
+"Last-Translator: tequilarapido <production@tequilarapido.com>\n"
+"Language-Team: beapi <tmagre@beapi.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: J:\\WORKS\\www\\tequila_wp_plugins\\custom-fields\n"
+"X-Poedit-SearchPath-1: ./trunk\n"
+"X-Poedit-SearchPath-2: ./trunk/inc\n"
+"X-Poedit-SearchPath-3: ./trunk/composants\n"
+"X-Poedit-SearchPath-4: ./trunk/composants/date-picker\n"
+"X-Poedit-SearchPath-5: ./trunk/composants/dropdown-users\n"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/checkbox.php:5
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/checkbox.php:6
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/checkbox.php:70
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/editor-light.php:55
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/input-text.php:55
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/radio.php:78
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/select-multiple.php:65
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/select.php:67
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/textarea.php:50
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/ajax-upload/ajax-upload.php:122
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/cloningForm/cloningForm.php:116
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/cloningLinks/cloningLinks.php:119
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/date-picker/date-picker.php:58
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/dragPostElements/dragPostElements.php:154
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/dragTaxElements/dragTaxElements.php:159
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/dragTaxPostElements/dragTaxPostElements.php:131
+msgid "Title:"
+msgstr "Titre:"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/checkbox.php:74
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/radio.php:82
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/select-multiple.php:67
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/select.php:69
+msgid "Settings:"
+msgstr "Paramètres:"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/checkbox.php:79
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/editor-light.php:59
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/input-text.php:56
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/radio.php:87
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/select-multiple.php:70
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/select.php:72
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/textarea.php:51
+msgid "Description:"
+msgstr "Description:"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/editor-light.php:11
+msgid "The Light Editor"
+msgstr "L'éditeur Light"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/editor-light.php:12
+msgid "Editor Light"
+msgstr "Editeur Light"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/input-text.php:5
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/input-text.php:6
+msgid "Input Text"
+msgstr "Saisie texte"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/radio.php:5
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/radio.php:6
+msgid "Radio"
+msgstr ""
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/select-multiple.php:5
+msgid "Select Mutiple"
+msgstr "Selection Multiple"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/select-multiple.php:6
+msgid "Select Multiple"
+msgstr "Selection Multiple"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/select.php:11
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/select.php:12
+msgid "Select"
+msgstr "Séléctionner"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/select.php:71
+msgid "Parameters like : label1|id1#label2|id2"
+msgstr "Paramètres tels que : label1|id1#label2|id2"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/separator.php:5
+msgid "Separator horizontal"
+msgstr ""
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/separator.php:6
+msgid "Separator"
+msgstr ""
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/textarea.php:10
+msgid "Block Text without editor"
+msgstr "Bloc de Texte sans éditeur"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/textarea.php:11
+msgid "Textarea"
+msgstr "Zone de texte"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/ajax-upload/ajax-upload.php:5
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/ajax-upload/ajax-upload.php:25
+msgid "Ajax Uploader"
+msgstr ""
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/ajax-upload/ajax-upload.php:5
+msgid "Upload file with Ajax"
+msgstr ""
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/ajax-upload/ajax-upload.php:51
+#, php-format
+msgid "Current file: %s"
+msgstr ""
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/ajax-upload/ajax-upload.php:58
+msgid "Delete this file"
+msgstr "Supprimer ce fichier"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/ajax-upload/ajax-upload.php:62
+msgid "Link for this file"
+msgstr ""
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/ajax-upload/ajax-upload.php:68
+msgid "Choose a file to upload:"
+msgstr ""
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/cloningForm/cloningForm.php:7
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/cloningForm/cloningForm.php:8
+msgid "Cloning Form"
+msgstr ""
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/cloningForm/cloningForm.php:34
+msgid "Title"
+msgstr "Titre"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/cloningForm/cloningForm.php:37
+msgid "paragraphe"
+msgstr ""
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/cloningForm/cloningForm.php:41
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/cloningLinks/cloningLinks.php:44
+msgid "Delete"
+msgstr "Supprimer"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/cloningForm/cloningForm.php:47
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/cloningLinks/cloningLinks.php:50
+msgid "No Field"
+msgstr "Aucun champs"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/cloningForm/cloningForm.php:52
+msgid "Add paragraphe"
+msgstr ""
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/cloningLinks/cloningLinks.php:7
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/cloningLinks/cloningLinks.php:8
+msgid "Cloning Links"
+msgstr ""
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/cloningLinks/cloningLinks.php:34
+msgid "Accroche"
+msgstr ""
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/cloningLinks/cloningLinks.php:37
+msgid "Libelle"
+msgstr ""
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/cloningLinks/cloningLinks.php:40
+msgid "URL"
+msgstr ""
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/cloningLinks/cloningLinks.php:55
+msgid "Add Links"
+msgstr ""
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/date-picker/date-picker.php:7
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/date-picker/date-picker.php:8
+msgid "Date Picker"
+msgstr "Sélecteur de date"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/dragPostElements/dragPostElements.php:7
+msgid "To ordering post elements"
+msgstr ""
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/dragPostElements/dragPostElements.php:8
+msgid "Drag Post Element"
+msgstr ""
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/dragPostElements/dragPostElements.php:155
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/dragTaxElements/dragTaxElements.php:160
+msgid "Tree:"
+msgstr "Hiérarchique :"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/dragPostElements/dragPostElements.php:157
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/dragTaxElements/dragTaxElements.php:162
+msgid "Post Type:"
+msgstr "Type de contenu:"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/dragTaxElements/dragTaxElements.php:7
+msgid "To ordering term elements"
+msgstr "Pour ordonner les élèments des termes"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/dragTaxElements/dragTaxElements.php:8
+msgid "Drag Taxonomy Element"
+msgstr "Drag&Drop Elément taxonomie"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/dragTaxPostElements/dragTaxPostElements.php:7
+msgid "To ordering tax / post elements"
+msgstr "Pour ordonner les éléments de taxonomy et type de contenu"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/dragTaxPostElements/dragTaxPostElements.php:8
+msgid "Drag Tax Post Element"
+msgstr "Drag&Drop taxonomie et post éléments"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/dropdown-users/dropdown-users.php:6
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/dropdown-users/dropdown-users.php:7
+msgid "Dropdown Users"
+msgstr "Liste déroulante des utilisateurs"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/dropdown-users/dropdown-users.php:57
+msgid "Role:"
+msgstr "Rôle:"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/dropdown-users/dropdown-users.php:59
+msgid "All"
+msgstr "Tous"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/editor/editor.php:13
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/editor/editor.php:14
+msgid "Editor"
+msgstr "Editeur"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/editor/editor.php:95
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/editor/editor.php:100
+msgid "HTML"
+msgstr "HTML"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/editor/editor.php:96
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/editor/editor.php:101
+msgid "Visual"
+msgstr "Visuel"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/links/links.php:7
+msgid "To add links"
+msgstr "Ajouter des liens"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/links/links.php:8
+msgid "Links"
+msgstr "Liens"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/links/links.php:33
+msgid "Target"
+msgstr "Cible"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/links/links.php:45
+msgid "No links found"
+msgstr "Aucun liens trouvés"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/medias/simple-media.php:5
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/medias/simple-media.php:6
+msgid "Simple Media"
+msgstr "Médias simples"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/medias/simple-media.php:79
+msgid "Insert in slideshow"
+msgstr "Insérer dans le diaporama"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/medias/simple-media.php:80
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/medias/simple-media.php:82
+msgid "Select picture"
+msgstr "Selectionner l'image"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/medias/simple-media.php:81
+msgid "Select number of pictures"
+msgstr "Sélectionner le nombre d'images"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/medias/simple-media.php:83
+msgid "Select sound"
+msgstr "Séléctionner le son"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/medias/simple-media.php:84
+msgid "Select Flash file"
+msgstr "Selection le fichier flash"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/medias/simple-media.php:85
+msgid "Select number of container"
+msgstr "Sélectionner le nombre de conteneur"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/medias/simple-media.php:86
+msgid "Insert into Post"
+msgstr "Insérer dans l'article"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/medias/simple-media.php:133
+msgid "Show all medias in WP"
+msgstr "Montrer tout les médias dans WP"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/relation-posttype/relation-posttype.php:5
+msgid "Relation Post type"
+msgstr "Relation type de contenu"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/relation-posttype/relation-posttype.php:6
+msgid "Relation Post Type"
+msgstr "Relation type de contenu"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/relation-posttype/relation-posttype.php:44
+msgid "No items."
+msgstr "Aucun item."
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/relation-posttype/relation-posttype.php:195
+msgid "Mode:"
+msgstr "Mode:"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/relation-posttype/walker.php:32
+#, php-format
+msgid "Item %d"
+msgstr "Elément %d"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/ta-maxlength/ta-maxlength.php:11
+msgid "Block Text with limited character"
+msgstr "Bloc de Texte avec limitation de caractère"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/ta-maxlength/ta-maxlength.php:12
+msgid "Textarea MaxLength"
+msgstr "Zone de texte Limiter en caractère"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/ta-maxlength/ta-maxlength.php:30
+#, php-format
+msgid "You have <strong>%d</strong> characters remaining"
+msgstr "Vuos avez encore <strong>%d</strong> caractères"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/composants/ta-maxlength/ta-maxlength.php:60
+msgid "Maxlength:"
+msgstr "Longueur maximale:"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:8
+msgid "Cheatin&#8217; uh?"
+msgstr "Triche"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:25
+msgid "Page Fields"
+msgstr "Champs de la page"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:29
+msgid "fields are independent sections of content that can be placed into any fieldized area provided by your theme (commonly called sidebars). To populate your sidebars/field areas with individual fields, drag and drop the title bars into the desired area. By default, only the first field area is expanded. To populate additional field areas, click on their title bars to expand them."
+msgstr "les champs sont des sections indépendantes de contenu qui peuvent être placés dans n'importe quelle zone du domaine fourni par votre thème (communément appelé sidebar). Pour remplir vos sidebars/champs de texte avec des champs individuels, glissez et déposez les barres de titre dans la zone souhaitée. Par défaut, seule la zone premier champ est élargi. Pour remplir les zones de champs supplémentaires, cliquez sur la barre où il y a le titre pour les dérouller."
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:30
+msgid "Available fields section contains all the fields you can choose from. Once you drag a field into a sidebar, it will open to allow you to configure its settings. When you are happy with the field settings, click the Save button and the field will go live on your site. If you click Delete, it will remove the field."
+msgstr "La section des champs disponible tous les champs que vous pouvez choisir. Une fois que vous faites glisser un champ dans une sidebar, il sera ouvert pour vous permettre de configurer ses paramètres. Lorsque vous êtes satisfait avec les paramètres de champ, cliquez sur le bouton Enregistrer et le domaine sera mise en ligne sur votre site. Si vous cliquez sur Supprimer, il supprime le champs."
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:31
+msgid "If you want to remove the field but save its setting for possible future use, just drag it into the Inactive fields area. You can add them back anytime from there. This is especially helpful when you switch to a theme with less or different field areas."
+msgstr "Si vous souhaitez supprimer le champ, mais sauvegarder ces paramètres  pour une utilisation future, il suffit de glisser le champs dans la zone de champs inactif. Vous pouvez les ajouter de nouveau à tout moment à partir de cet endroit. Ceci est particulièrement utile lorsque vous basculez vers un thème avec des chams, différents ou moins nombreux."
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:32
+msgid "fields may be used multiple times. You can give each field a title, to display on your site, but it&#8217;s not required."
+msgstr "des champs peuvent être utilisés plusieurs fois. Vous pouvez donner à chaque champs un titre, pour l'afficher sur votre site, mais il n'est pas requis."
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:33
+msgid "Enabling Accessibility Mode, via Screen Options, allows you to use Add and Edit buttons instead of using drag and drop."
+msgstr "Permettre le mode d'accessibilité, en passant par cet écran d'option, vous permet d'utiliser boutons Ajouter et Editer au lieu d'utiliser le glisser-déposer."
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:35
+msgid "For more information:"
+msgstr "Pour plus d'informations:"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:36
+msgid "<a href=\"http://codex.wordpress.org/Appearance_fields_SubPanel\">fields Documentation</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Appearance_fields_SubPanel\">fields Documentation</a>"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:37
+msgid "<a href=\"http://wordpress.org/support/\">Support Forums</a>"
+msgstr "<a href=\"http://wordpress.org/support/\">Support Forums</a>"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:41
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:314
+msgid "Inactive fields"
+msgstr "Champs inactifs"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:168
+#, php-format
+msgid "field %s"
+msgstr "champs %s"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:176
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/class.field.base.php:82
+msgid "There are no options for this field."
+msgstr "Il n'y a pas d'option pour ce champs."
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:179
+msgid "Select both the sidebar for this field and the position of the field in that sidebar."
+msgstr "Sélectionnez les deux sidebar pour ce champs et la position du champ dans la sidebar."
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:181
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:181
+msgid "Position"
+msgstr "Position"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:198
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Sélectionner &mdash;"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:213
+msgid "Cancel"
+msgstr "Annuler"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:233
+msgid "Changes saved."
+msgstr "Changements sauvegardés."
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:237
+msgid "Error while saving."
+msgstr "Erreur pendant l'enregistrement."
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:238
+msgid "Error in displaying the field settings form."
+msgstr "Erreur dans l'affichage du champ des paramètres du formulaire."
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:259
+msgid "More sidebar"
+msgstr "Plus de sidebar"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:283
+msgid "Edit"
+msgstr "Editer"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:300
+msgid "Available fields"
+msgstr "Champs disponible"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:300
+msgid "Deactivate"
+msgstr "Désactiver"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:302
+msgid "Drag fields from here to a sidebar on the right to activate them. Drag fields back here to deactivate them and delete their settings."
+msgstr "Faites glisser les champs d'ici à un encadré sur la droite pour les activer. Faites glisser les champs a nouveau ici pour les désactiver et supprimer leurs paramètres."
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/admin.tpl.php:317
+msgid "Drag fields here to remove them from the sidebar but keep their settings."
+msgstr "Faites glisser les champs ici pour les supprimer de la sidebar, mais garder leurs paramètres."
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/class.admin.object.php:41
+msgid "This post could not be published:"
+msgstr "Cet élément ne peut être publié :"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/class.admin.object.php:182
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/class.admin.object.taxo.php:161
+#, php-format
+msgid "Use for %s"
+msgstr "Utiliser pour %s"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/class.ajax.php:44
+msgid "An error has occured. Please reload the page and try again."
+msgstr "Une erreur s'est produite. Veuillez recharger la page et réessayer "
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/class.field.base.php:57
+#, php-format
+msgid "Field %s is required"
+msgstr "Le champ %s est obligatoire"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/class.field.control.php:57
+msgid "Add"
+msgstr "Ajouter"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/class.field.control.php:82
+msgid "Close"
+msgstr "Fermer"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/class.page.php:21
+msgid "Fields"
+msgstr "Champs"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/class.sidebar.php:19
+#, php-format
+msgid "Sidebar %d"
+msgstr "Sidebar %d"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/functions.php:118
+msgid "Slug:"
+msgstr "Slug:"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/functions.php:121
+msgid "Meta slug:"
+msgstr "Meta slug:"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/functions.php:123
+msgid "Default meta slug:"
+msgstr "Meta slug par défault:"
+
+#: J:\WORKS\www\tequila_wp_plugins\custom-fields/trunk/inc/functions.php:137
+msgid "Require:"
+msgstr "Obligatoire:"
+
+#~ msgid "New tab"
+#~ msgstr "Nouvelle note"
+
+#~ msgid "None"
+#~ msgstr "Aucun"
+
+#~ msgid "Type of files:"
+#~ msgstr "Type de fichiers:"
+
+#~ msgid "All Images"
+#~ msgstr "Toutes les images"
+
+#~ msgid "Pages"
+#~ msgstr "Pages"

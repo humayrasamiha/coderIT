@@ -1,0 +1,84 @@
+.postbox div.form-field textarea, div.form-field input[type="text"]{
+margin-top: 0;
+}
+.postbox div.form-field .title-field{
+	margin-bottom: 6px;
+	font-size: 12px;
+	font-weight: bold;
+	color:#333333;
+}
+.postbox div.form-field label{
+color:#333333;
+display: inline-block;
+}
+.metaboxfield label {
+    color: #222222;
+    text-shadow: 0 1px 0 #FFFFFF;
+    padding: 2px;
+}
+.metaboxfield .form-field {
+    margin: 0 0 10px;
+    padding: 8px;
+}
+#poststuff .metaboxfield .inside{
+	margin: 0;
+}
+.postbox .inside .container-sct{
+	padding: 0 5px;
+	border-bottom: 1px solid #DFDFDF;
+	background-color: #f1f1f1; /* Fallback */
+	background-image: -ms-linear-gradient(top, #f9f9f9, #ececec); /* IE10 */
+	background-image: -moz-linear-gradient(top, #f9f9f9, #ececec); /* Firefox */
+	background-image: -o-linear-gradient(top, #f9f9f9, #ececec); /* Opera */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#ececec)); /* old Webkit */
+	background-image: -webkit-linear-gradient(top, #f9f9f9, #ececec); /* new Webkit */
+	background-image: linear-gradient(top, #f9f9f9, #ececec); /* proposed W3C Markup */
+}
+.postbox.metaboxfield .inside .container-sct.lastchild, .postbox.metaboxfield .inside .container-sct.lastchild .form-field{
+	border-bottom: 0;
+	margin-bottom: 0;
+}
+.postbox.metaboxfield .inside{
+	padding: 0;
+}
+.postbox div.form-field .editor-light-field{
+-moz-border-radius:4px 4px 4px 4px;
+-webkit-border-radius:4px 4px 4px 4px;
+border:1px solid #DFDFDF;
+padding:5px;
+}
+.postbox div.form-field .checkbox-field label, .postbox div.form-field .radio-field label{
+background:none repeat scroll 0 0 transparent;
+border:medium none;
+margin:5px;
+/*width: 315px;*/
+}
+.postbox div.form-field .checkbox-field label input[type="checkbox"], .postbox div.form-field .radio-field label input[type="radio"]{
+width: auto;
+}
+#post-body .postbox div.form-field .editor-light-field .wp_themeSkin .mceStatusbar a.mceResize{
+top: auto;
+}
+.postbox div.form-field .editor-light-field{
+padding: 0;
+}
+.postbox .form-field input, .form-field textarea{
+width: 100%;
+}
+.postbox .form-field input.hasDatepicker{
+display:block;
+text-align:center;
+width:auto;
+}
+.postbox .form-field .dropdown-user-field{
+display:block;
+width:20%;
+}
+.postbox .form-field .select_multiple_field select, .form-field .select-field select{
+width: 100%;
+display: block;
+margin: 0;
+}
+.postbox .form-field input[type="submit"], .postbox .form-field input[type="button"]{
+    width: auto;
+}

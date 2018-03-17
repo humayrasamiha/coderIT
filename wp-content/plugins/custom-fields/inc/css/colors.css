@@ -1,0 +1,123 @@
+.field .field-top,
+.postbox h3,
+.stuffbox h3,
+.widefat thead tr th,
+.widefat tfoot tr th,
+h3.dashboard-field-title,
+h3.dashboard-field-title span,
+h3.dashboard-field-title small,
+.find-box-head,
+.sidebar-name,
+#nav-menu-header,
+#nav-menu-footer,
+.menu-item-handle,
+#fullscreen-topbar {
+	background-color: #f1f1f1; /* Fallback */
+	background-image: -ms-linear-gradient(top, #f9f9f9, #ececec); /* IE10 */
+	background-image: -moz-linear-gradient(top, #f9f9f9, #ececec); /* Firefox */
+	background-image: -o-linear-gradient(top, #f9f9f9, #ececec); /* Opera */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#ececec)); /* old Webkit */
+	background-image: -webkit-linear-gradient(top, #f9f9f9, #ececec); /* new Webkit */
+	background-image: linear-gradient(top, #f9f9f9, #ececec); /* proposed W3C Markup */
+}
+
+.field .field-top,
+.postbox h3,
+.stuffbox h3 {
+	border-bottom-color: #dfdfdf;
+	text-shadow: #fff 0 1px 0;
+	-moz-box-shadow: 0 1px 0 #fff;
+	-webkit-box-shadow: 0 1px 0 #fff;
+	box-shadow: 0 1px 0 #fff;
+}
+
+.field,
+#field-list .field-top,
+.postbox,
+#titlediv,
+#poststuff .postarea,
+.stuffbox {
+	border-color: #dfdfdf;
+	-moz-box-shadow: inset 0 1px 0 #fff;
+	-webkit-box-shadow: inset 0 1px 0 #fff;
+	box-shadow: inset 0 1px 0 #fff;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.field,
+#field-list .field-top,
+.postbox,
+.menu-item-settings {
+	background-color: #f5f5f5; /* Fallback */
+	background-image: -ms-linear-gradient(top, #f9f9f9, #f5f5f5); /* IE10 */
+	background-image: -moz-linear-gradient(top, #f9f9f9, #f5f5f5); /* Firefox */
+	background-image: -o-linear-gradient(top, #f9f9f9, #f5f5f5); /* Opera */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#f5f5f5)); /* old Webkit */
+	background-image: -webkit-linear-gradient(top, #f9f9f9, #f5f5f5); /* new Webkit */
+	background-image: linear-gradient(top, #f9f9f9, #f5f5f5); /* proposed W3C Markup */
+}
+
+div.fields-sortables,
+#fields-left .inactive {
+	background-color: #fcfcfc;
+	border-color: #dfdfdf;
+}
+
+#available-fields .field-holder {
+	background-color: #fcfcfc;
+	border-color: #dfdfdf;
+}
+
+#available-fields .field-description {
+	color: #555;
+}
+
+
+#page-fields .sidebar-name {
+	color: #464646;
+	text-shadow: #fff 0 1px 0;
+	border-color: #dfdfdf;
+	-moz-box-shadow: inset 0 1px 0 #fff;
+	-webkit-box-shadow: inset 0 1px 0 #fff;
+	box-shadow: inset 0 1px 0 #fff;
+}
+
+.field .widget-top {
+	color: #222;
+}
+
+#page-fields .sidebar-name:hover h3{
+	color: #000;
+}
+
+#page-fields .sidebar-name:hover,
+#removing-field {
+	color: #d54e21;
+}
+
+#removing-field span {
+	color: black;
+}
+
+.sidebar-name-arrow {
+	background: transparent url(../img/arrows.png) no-repeat 5px 9px;
+}
+
+.sidebar-name:hover .sidebar-name-arrow {
+	background: transparent url(../img/arrows-dark.png) no-repeat 5px 9px;
+}
+
+.in-field-title {
+	color: #606060;
+}
+
+.deleting .field-title * {
+	color: #aaa;
+}
+
+textarea.widefat{
+	background: #FFFFFF;
+}

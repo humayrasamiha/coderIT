@@ -1,0 +1,656 @@
+/*html,
+body {
+min-width: 950px;
+}*/
+.wrap{
+    position:relative;
+    min-width: 930px;
+}
+div.field-liquid-left .col1{
+    float: left;
+    margin-right: 5px;
+    padding-right: 5px;
+    width: 48%;
+    margin-right: 14px;
+    padding-right: 0;
+}
+div.field-liquid-left .col2{
+    float: left;
+    margin-right: 5px;
+    padding-right: 5px;
+    width: 46%;
+    margin-left: 3%;
+    margin-right: 0;
+    padding-right: 0;
+}
+/* 2 column liquid layout */
+div.field-liquid-left {
+float: left;
+clear: left;
+width: 100%;
+margin-right: -625px;
+}
+
+div#fields-left {
+margin-left: 5px;
+margin-right: 625px;
+z-index: 999;
+}
+
+div#fields-right {
+width: 600px;
+margin: 0 auto;
+}
+
+div.field-liquid-right {
+float: right;
+clear: right;
+width: 600px;
+z-index: 1;
+}
+
+.field-liquid-left .field,
+#cf_inactive_fields .field,
+.field-liquid-left .sidebar-description {
+width: 250px;
+margin: 0 auto 20px;
+overflow: hidden;
+}
+/*
+.field-liquid-right .field,
+#cf_inactive_fields .field,
+.field-liquid-right .sidebar-description {
+width: 250px;
+margin: 0 auto 20px;
+overflow: hidden;
+}
+/*
+.field-liquid-right .sidebar-description {
+margin-bottom: 10px;
+}
+*/
+.field-liquid-left .sidebar-description {
+margin-bottom: 10px;
+}
+
+#cf_inactive_fields .field {
+margin: 0 10px 20px;
+float: left;
+}
+
+#page-fields  div.sidebar-name h3 {
+	font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+	font-weight: normal;
+	font-size: 15px;
+	margin: 0;
+	padding: 8px 10px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#page-fields  div.sidebar-name {
+	cursor: pointer;
+	font-size: 13px;
+	border-width: 1px;
+	border-style: solid;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-khtml-border-top-right-radius: 3px;
+	-khtml-border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+#page-fields  .js .closed .sidebar-name {
+	-moz-border-radius-bottomleft: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-khtml-border-bottom-right-radius: 3px;
+	-khtml-border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+
+/*
+div.sidebar-name h3 {
+margin: 0;
+padding: 5px 12px;
+font-size: 13px;
+height: 19px;
+overflow: hidden;
+white-space: nowrap;
+}
+
+div.sidebar-name {
+background-repeat: repeat-x;
+background-position: 0 0;
+cursor: pointer;
+font-size: 13px;
+border-width: 1px;
+border-style: solid;
+-moz-border-radius-topleft: 8px;
+-moz-border-radius-topright: 8px;
+-webkit-border-top-right-radius: 8px;
+-webkit-border-top-left-radius: 8px;
+-khtml-border-top-right-radius: 8px;
+-khtml-border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+border-top-left-radius: 8px;
+}
+*/
+.field-liquid-left div.sidebar-options {
+/*background-color: #FCFCFC;
+text-align: right;
+border-width: 0 1px;
+border-style: none solid solid;
+border-color: #DDDDDD;
+line-height: 0;
+padding-right: 20px*/
+background-color: #FCFCFC;
+border-color: #DDDDDD;
+border-style: none solid solid;
+border-width: 0 1px;
+height: 18px;
+position: relative;
+}
+
+
+
+.field-liquid-left .closed div.sidebar-options {
+background-color: transparent;
+text-align: right;
+border-width: 0;
+border-style: none;
+margin: 0 1px;
+}
+
+.field-liquid-left div.sidebar-options a{
+/*
+background-color: #636363;
+color: #FFFFFF;
+font-size: 10px;
+line-height: 11px;
+margin-right: 5px;
+padding: 0 9px 3px;
+text-decoration: none;*/
+background-color: #DFDFDF;
+color: #464646;
+display: block;
+float: right;
+font-size: 12px;
+margin-right: 5px;
+padding: 0 9px;
+text-decoration: none;
+/*text-shadow: 0 1px 0 #FFFFFF;*/
+
+background-color: #f1f1f1; /* Fallback */
+background-image: -ms-linear-gradient(top, #DDDDDD, #ececec); /* IE10 */
+background-image: -moz-linear-gradient(top, #DDDDDD, #ececec); /* Firefox */
+background-image: -o-linear-gradient(top, #DDDDDD, #ececec); /* Opera */
+background-image: -webkit-gradient(linear, left top, left bottom, from(#DDDDDD), to(#ececec)); /* old Webkit */
+background-image: -webkit-linear-gradient(top, #DDDDDD, #ececec); /* new Webkit */
+background-image: linear-gradient(top, #DDDDDD, #ececec); /* proposed W3C Markup */
+}
+
+.field-liquid-left div.sidebar-options a:hover{
+    text-decoration: underline;
+}
+
+.js .closed .sidebar-name, div.sidebar-options a {
+-moz-border-radius-bottomleft: 3px;
+-moz-border-radius-bottomright: 3px;
+-webkit-border-bottom-right-radius: 3px;
+-webkit-border-bottom-left-radius: 3px;
+-khtml-border-bottom-right-radius: 3px;
+-khtml-border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+border-bottom-left-radius: 3px;
+}
+
+.field-liquid-left .fields-sortables,
+#fields-right .field-holder {
+border-width: 0 1px 1px;
+border-style: none solid solid;
+-moz-border-radius-bottomleft: 3px;
+-moz-border-radius-bottomright: 3px;
+-webkit-border-bottom-right-radius: 3px;
+-webkit-border-bottom-left-radius: 3px;
+-khtml-border-bottom-right-radius: 3px;
+-khtml-border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+border-bottom-left-radius: 3px;
+}
+
+.js .closed .fields-sortables,
+.js .closed .field-holder {
+display: none;
+}
+
+#available-fields .field {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.field-liquid-left .fields-sortables {
+padding: 15px 20px 0 20px;
+position: relative;
+}
+
+#available-fields .field-holder {
+padding: 7px 5px 0;
+}
+
+#cf_inactive_fields {
+padding: 5px 5px 0;
+}
+
+#field-list .field {
+width: 250px;
+margin: 0 10px 15px;
+border: 0 none;
+background: transparent;
+float: left;}
+
+#field-list .field-description {
+padding: 5px 8px;
+}
+
+#field-list .field-top {
+border-width: 1px;
+border-style: solid;
+-moz-border-radius: 6px;
+-khtml-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+}
+
+.field-placeholder {
+border-width: 1px;
+border-style: dashed;
+margin: 0 auto 20px;
+height: 26px;
+width: 250px;
+}
+
+#cf_inactive_fields .field-placeholder {
+margin: 0 10px 20px;
+float: left;
+}
+
+div.fields-holder-wrap {
+padding: 0;
+margin: 10px 0 20px;
+}
+
+#fields-right #available-fields {
+background-color: transparent;
+border: 0 none;
+}
+
+ul#field-list {
+list-style: none;
+margin: 0;
+padding: 0;
+min-height: 100px;
+}
+
+.field .field-top {
+font-size: 12px;
+font-weight: bold;
+height: 26px;
+overflow: hidden;
+}
+
+.field-top .field-title {
+padding: 5px 9px;
+}
+
+.field-top .field-title-action {
+float: right;
+}
+
+a.field-action {
+display: block;
+width: 24px;
+height: 26px;
+}
+
+#available-fields a.field-action {
+display: none;
+}
+
+.field-top a.field-action {
+background: url("../img/menu-bits.gif") no-repeat scroll 0 -110px;
+}
+
+.field .field-inside,
+.field .field-description {
+padding: 12px 12px 10px;
+font-size: 11px;
+line-height: 16px;
+}
+
+.field-inside,
+.field-description {
+display: none;
+}
+
+#available-fields .field-description {
+display: block;
+}
+
+.field .field-inside p {
+margin: 0 0 1em;
+padding: 0;
+}
+
+.field-title h4 {
+margin: 0;
+line-height: 1.3;
+overflow: hidden;
+white-space: nowrap;
+}
+
+.fields-sortables {
+min-height: 90px;
+}
+
+.field-control-actions {
+margin-top: 8px;
+}
+
+.field-control-actions a {
+text-decoration: none;
+}
+
+.field-control-actions a:hover {
+text-decoration: underline;
+}
+
+.field-control-actions .ajax-feedback {
+padding-bottom: 3px;
+}
+
+.field-control-actions div.alignleft {
+margin-top: 6px;
+}
+
+div#sidebar-info {
+padding: 0 1em;
+margin-bottom: 1em;
+font-size: 11px;
+}
+
+.field-title a,
+.field-title a:hover {
+text-decoration: none;
+border-bottom: none;
+}
+
+.field-control-edit {
+display: block;
+font-size: 11px;
+font-weight: normal;
+line-height: 26px;
+padding: 0 8px 0 0;
+}
+
+a.field-control-edit {
+text-decoration: none;
+}
+
+.field-control-edit .add,
+.field-control-edit .edit {
+display: none;
+}
+
+#available-fields .field-control-edit .add,
+#fields-left .field-control-edit .edit,
+#cf_inactive_fields .field-control-edit .edit {
+display: inline;
+}
+
+.editfield {
+margin: 0 auto 15px;
+}
+
+.editfield .field-inside {
+display: block;
+border-width: 1px;
+border-style: solid;
+padding: 10px;
+-moz-border-radius: 6px;
+-khtml-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+}
+
+.inactive p.description {
+margin: 5px 15px 8px;
+}
+
+#available-fields p.description {
+margin: 0 12px 12px;
+}
+
+.field-position {
+margin-top: 8px;
+}
+
+.inactive {
+padding-top: 2px;
+}
+
+.sidebar-name-arrow {
+float: right;
+height: 29px;
+width: 26px;
+}
+
+.field-title .in-field-title {
+font-size: 11px;
+white-space: nowrap;
+}
+
+#removing-field {
+display: none;
+font-weight: normal;
+padding-left: 15px;
+font-size: 12px;
+}
+
+.field-control-noform,
+#access-off,
+.fields_access .field-action,
+.fields_access .sidebar-name-arrow,
+.fields_access #access-on,
+.fields_access .field-holder .description {
+display: none;
+}
+
+.fields_access .field-holder,
+.fields_access #field-list {
+padding-top: 10px;
+}
+
+.fields_access #access-off {
+display: inline;
+}
+
+.fields_access #wpbody-content .field-title-action,
+.fields_access #wpbody-content .field-control-edit,
+.fields_access .closed .fields-sortables,
+.fields_access .closed .field-holder {
+display: block;
+}
+
+.fields_access .closed .sidebar-name {
+-moz-border-radius-bottomleft: 0;
+-moz-border-radius-bottomright: 0;
+-webkit-border-bottom-right-radius: 0;
+-webkit-border-bottom-left-radius: 0;
+-khtml-border-bottom-right-radius: 0;
+-khtml-border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+}
+
+.fields_access .sidebar-name,
+.fields_access .field .field-top {
+cursor: default;
+}
+
+* html .field {
+border-color: #dfdfdf;
+}
+
+#postcustomstuff table,
+#your-profile fieldset,
+#rightnow,
+div.dashboard-field,
+#dashboard-fields p.dashboard-field-links,
+#replyrow #ed_reply_toolbar input {
+border-color: #ccc;
+}
+
+div.dashboard-field-error {
+background-color: #c43;
+}
+
+div.dashboard-field-notice {
+background-color: #cfe1ef;
+}
+
+div.dashboard-field-submit {
+border-top-color: #ccc;
+}
+
+.field .field-top {
+background: #dfdfdf url("../img/gray-grad.png") repeat-x left top;
+text-shadow: #fff 0 1px 0;
+}
+
+.rss-field span.rss-date{
+color: #666;
+}
+
+
+div.dashboard-field-submit input:hover {
+color: #d54e21;
+}
+
+#the-comment-list .comment-item,
+#dashboard-fields #dashboard_quick_press form p.submit {
+border-color: #dfdfdf;
+}
+
+.widefat thead tr th,
+.widefat tfoot tr th,
+h3.dashboard-field-title,
+h3.dashboard-field-title span,
+h3.dashboard-field-title small,
+.find-box-head {
+color: #333;
+background: #dfdfdf url(../img/gray-grad.png) repeat-x scroll left top;
+}
+
+h3.dashboard-field-title small a {
+color: #d7d7d7;
+}
+
+h3.dashboard-field-title small a:hover {
+color: #fff;
+}
+
+#dashboard_secondary div.dashboard-field-content ul li a {
+background-color: #f9f9f9;
+}
+
+.field,
+#field-list .field-top {
+border-color: #dfdfdf;
+}
+
+.field {
+background-color: #fff;
+border-width: 1px;
+border-style: solid;
+-moz-border-radius: 6px;
+-khtml-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+border-color: #dfdfdf;
+margin-left: 20px
+}
+
+.field .field-top{
+color: #000;
+}
+
+
+.field-control-remove:hover {
+color: #f00;
+}
+
+
+.editfield .field-inside {
+border-color: #dfdfdf;
+}
+
+div.fields-sortables,
+#fields-right .inactive {
+background-color: #FCFCFC;
+border-color: #DFDFDF;
+}
+
+#available-fields .field-holder {
+background-color: #fff;
+border-color: #ddd;
+}
+
+/*
+#fields-right .sidebar-name {
+background-color: #aaa;
+background-image: url(../img/ed-bg.gif);
+text-shadow: #fff 0 1px 0;
+border-color: #dfdfdf;
+}
+
+#fields-left .sidebar-name {
+background-image: url(../img/fav.png);
+text-shadow: #3f3f3f 0 -1px 0;
+background-color: #636363;
+border-color: #636363;
+color: #fff;
+}
+
+.sidebar-name:hover,
+#removing-field {
+color: #d54e21;
+}
+
+#removing-field span {
+color: black;
+}
+
+#fields-right .sidebar-name-arrow {
+background: transparent url(../img/menu-bits.gif) no-repeat scroll left -109px;
+}
+
+#fields-left .sidebar-name-arrow {
+background: transparent url(../img/widgets-arrow.gif) no-repeat scroll 0 -1px;
+}
+
+.in-field-title {
+color: #606060;
+}
+
+.deleting .field-title * {
+color: #aaa;
+}
+*/

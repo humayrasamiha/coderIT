@@ -1,0 +1,88 @@
+@font-face{
+	font-family:Lato-Regular;
+	src:url(../fonts/Lato-Regular.otf);
+}
+@font-face{
+	font-family:Lato-Black;
+	src:url(../fonts/Lato-Black.otf);
+}
+@font-face{
+	font-family:Lato-Bold;
+	src:url(../fonts/Lato-Bold.otf);
+}
+@font-face{
+	font-family:Lato-Light;
+	src:url(../fonts/Lato-Light.otf);
+}
+@font-face{
+	font-family:OpenSans-Light;
+	src:url(../fonts/OpenSans-Light.ttf);
+}
+@font-face{
+	font-family:OpenSans-Semibold;
+	src:url(../fonts/OpenSans-Semibold.ttf);
+}
+@font-face{
+	font-family:Lato-Heavy;
+	src:url(../fonts/Lato-Heavy.ttf);
+}
+@font-face{
+	font-family:Lato-Light;
+	src:url(../fonts/Lato-Light.ttf);
+}
+/*
+ === Menu Starts Here === 
+*/
+#navMenu1{
+	z-index: 9999999999;
+	position: relative;
+}
+#navMenu1>.navbar{
+		padding: 0px 0px;
+		border: none;
+		background: #fff;	
+}
+#navMenu1>.navbar .navbar-brand img{
+		margin-left: -15px;
+   	 	margin-top: 0px;
+}
+#navMenu1>.navbar .container{
+		padding: 15px 0px;
+		!border: 1px solid #000;
+		-webkit-box-shadow: 0px 9px 22px -21px rgba(33,33,33,1);
+		-moz-box-shadow: 0px 9px 22px -21px rgba(33,33,33,1);
+		box-shadow: 0px 9px 22px -21px rgba(33,33,33,1);
+		-moz-transition: all .2s linear;
+		-webkit-transition: all .2s linear;
+		transition: all .2s linear;
+	
+}
+.menuBox2{
+	padding: 0px 0px !important;
+	-moz-transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+	transition: all .2s linear;
+}
+#navMenu1>.navbar .navbar-right{
+		margin-top: 8px;
+    	margin-right: -30px;
+}
+#navMenu1>.navbar .navbar-right li a{
+	    padding: 0px 10px;
+	    font-size: 15px;
+	    color:#4A4A4A;
+	    font-family: OpenSans-Semibold;
+	    text-decoration: none;
+	    transition:all .3s ease;
+		-mox-transition:all .3s ease;
+		-webkit-transition:all .3s ease;
+}
+#navMenu1>.navbar .navbar-right li a:hover{
+		color:#36B1C0;
+}
+#navMenu1>.navbar .navbar-right li a:focus{
+		color:#36B1C0;
+}
+/*
+ === Menu Ends Here === 
+*/
